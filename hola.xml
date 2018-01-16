@@ -13,6 +13,7 @@
     </context>
     <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
       <context>
+        <pattern name="Personal" value="entity://Personal"/>
         <sample>
            <item>Personal para apoyo en casa</item>
            <item>Nana</item>
