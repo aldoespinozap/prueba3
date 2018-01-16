@@ -21,11 +21,11 @@
               <item>Personal para apoyo en casa</item>
               <item>Nana</item>  
               <item>Otro tipo de servicio</item> 
-            </sample>
-          <input pattern = "Nana">
-            <output value="De acuerdo, usted esta buscando * Text"/>
-          </input>
+            </sample>          
         </context>
+        <input pattern = "Nana">
+            <output value="De acuerdo, usted esta buscando * Text"/>
+        </input>
   </input> 
    
 
