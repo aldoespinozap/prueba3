@@ -18,8 +18,8 @@
         <pattern name="personal" value="(* nan*|* personal* |* otro* |* empleada)"/>
         <input>
           <pattern value = "$personal"/>
-          <context if="has($personal,'nan')">
-           <output value = "Perfecto, entonces usted desea Nana"/>
+          <context if="has($personal,'"nan"')">
+           <output value = "Perfecto, entonces usted esta buscando los servicios de una Nana"/>
           </context>
         </input>
         </context>  
