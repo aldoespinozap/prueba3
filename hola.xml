@@ -21,8 +21,8 @@
               <item>Nana</item>  
               <item>Otro tipo de servicio</item> 
             </sample> 
-          <input pattern = "$Personal">
-          <output value="De acuerdo, usted esta buscando $Personal"/>
+          <input pattern = "* Personal">
+          <output value="De acuerdo, usted esta buscando * Personal"/>
           </input>  
         </context>        
   </input> 
