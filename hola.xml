@@ -11,6 +11,7 @@
       </input>
 
     </context>
+   </input>
     <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
       <context>
         <pattern name="Personal" value="entity://Personal"/>
@@ -22,5 +23,5 @@
           <output value="De acuerdo"/>
         </input>
       </context>
-  </input>
+  
 </context>
