@@ -21,7 +21,7 @@
            <item>Nana</item>
         </sample>
         <input pattern="* $Personal *">
-          
+          <output value="De acuerdo, usted esta buscando $Personal "/>  
         </input>
     </context>
   </input> 
