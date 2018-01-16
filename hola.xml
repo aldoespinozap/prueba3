@@ -15,7 +15,7 @@
   <input pattern="(pregunta|consulta |necesito|busco|buscando|informacion|información) *">
     
         <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
-        <context>
+        <!-- <context>
             <sample>
               <item>Personal para apoyo en casa</item>
               <item>Nana</item>  
@@ -24,7 +24,13 @@
           <input pattern = "* Personal">
           <output value="De acuerdo, usted esta buscando * Personal"/>
           </input>  
-        </context>        
+        </context>-->     
+  <context>
+  <pattern name="Fruit" value="(apple*|orange*)"/> <!-- A general pattern -->
+  <input>
+    <pattern value="* (want|wanna) * $Fruit"/> <!-- Uses the general pattern -->
+  </input>
+</context>  
   </input> 
    
 
