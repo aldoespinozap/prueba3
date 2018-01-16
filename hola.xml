@@ -12,7 +12,7 @@
 
     </context>
   </input>
-  <input pattern="(pregunta|consulta) *">
+  <input pattern="(pregunta|consulta |necesito|busco|buscando|informacion|información) *">
     <context>
         <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
         <pattern name="Personal" value="entity://Personal"/>
@@ -21,7 +21,9 @@
            <item>Nana</item>
         </sample>
         <input pattern="* $Personal *">
-          <output value="De acuerdo, usted esta buscando $Personal "/>  
+          <context>
+            <output value="De acuerdo, usted esta buscando $Personal "/>  
+          </context>  
         </input>
     </context>
   </input> 
