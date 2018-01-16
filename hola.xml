@@ -15,11 +15,11 @@
   <input pattern="(* pregunta *|* consulta *|* necesito *|* busco *|* buscando *|* informacion * |* información *) *">
         <context>
         <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?  Podemos ofrecerle Nanas, Nanas Lechuceras, Personal de apoyo en la casa"/> 
-        <pattern name="personal" value="(* nan*|* persona* |* otro* |* empleada)"/>
+        <pattern name="personal" value="(* nan*|* persona* |* otro* |* empleada*)"/>
         <input>
           <pattern value = "$personal"/>
           <var name = "nana" value = "nan"/>
-          <var name = "per" value = "person"/>
+          <var name = "per" value = "persona"/>
           <var name = "otro" value = "otro"/>
           <var name = "emp" value = "emplea"/>
           <context if="has($personal,$nana)">
