@@ -14,7 +14,7 @@
   </input>
   <input pattern="(pregunta|consulta |necesito|busco|buscando|informacion|información) *">
     
-        <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"
+        <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?">
           <output value="Podemos ofrecerle Nanas, Nanas Lechuceras, Personal de apoyo en la casa"/>
         </output>
         <context>
