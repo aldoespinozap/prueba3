@@ -19,9 +19,10 @@
           <input pattern = "* Text"/>
             <sample>
               <item>Personal para apoyo en casa</item>
-              <item>Nana</item>              
+              <item>Nana</item>  
+              <item>Otro tipo de servicio</item> 
             </sample>
-          <input pattern = "Text">
+          <input pattern = "Nana">
             <output value="De acuerdo, usted esta buscando * Text"/>
           </input>
         </context>
