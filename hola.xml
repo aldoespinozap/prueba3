@@ -19,7 +19,7 @@
         <sample>
            <item>Personal para apoyo en casa</item>
            <item>Nana</item>
-           <output value="De acuerdo, usted esta buscando $Text"/>
+           <output value="De acuerdo, usted esta buscando * Text"/>
         </sample>
        
         
