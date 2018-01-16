@@ -11,5 +11,15 @@
       </input>
 
     </context>
+    <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?">
+      <context>
+        <sample>
+           <item>Personal para apoyo en casa</item>
+           <item>Nana</item>
+        </sample>
+        <input pattern="* $Personal *">
+          <output value="De acuerdo"/>
+        </input>
+      </context>
   </input>
 </context>
