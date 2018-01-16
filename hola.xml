@@ -18,10 +18,10 @@
         <pattern name="personal" value="(* nan*|* personal* |* otro* |* empleada)"/>
         <input>
           <pattern value = "$personal"/>
-          <var name = "nana" value = "nan"/>
-          <var name = "per" value = "person"/>
-          <var name = "otro" value = "otro"/>
-          <var name = "emp" value = "emplea"/>
+          <var name = "nana" value = "nan*"/>
+          <var name = "per" value = "person*"/>
+          <var name = "otro" value = "otro*"/>
+          <var name = "emp" value = "emplea*"/>
           <context if="has($personal,$nana)">
            <output value = "Perfecto, entonces usted esta buscando los servicios de una Nana"/>
           </context>
