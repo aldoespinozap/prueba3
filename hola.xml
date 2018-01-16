@@ -15,14 +15,13 @@
   <input pattern="(pregunta|consulta |necesito|busco|buscando|informacion|información) *">
     <context>
         <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
-        /*<pattern name="Personal"/>*/
+        <input pattern = "* Text"/>
         <sample>
            <item>Personal para apoyo en casa</item>
            <item>Nana</item>
         </sample>
-        <input pattern="* $Personal *">
-          <output value="De acuerdo, usted esta buscando"/>
-        </input>  
+        <output value="De acuerdo, usted esta buscando $Text"/>
+        
         
     </context>
   </input> 
