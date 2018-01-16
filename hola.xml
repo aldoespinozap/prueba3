@@ -20,10 +20,11 @@
            <item>Personal para apoyo en casa</item>
            <item>Nana</item>
         </sample>
-        <input pattern="* $Personal *"/>
+        <input pattern="* $Personal *">
           <context>
             <output value="De acuerdo, usted esta buscando $Personal "/>
           </context>
+        </input>
     </context>
   </input> 
    
