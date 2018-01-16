@@ -21,8 +21,7 @@
            <item>Nana</item>
         </sample>
         <input pattern="* $Personal *">
-          <var name="sel" value="$Personal"/>
-          <output value="De acuerdo, usted esta buscando $sel "/>
+          
         </input>
     </context>
   </input> 
