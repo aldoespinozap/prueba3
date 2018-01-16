@@ -16,7 +16,8 @@
     
         <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
         <context>
-          <input pattern name="Personal" value = "* Text"/>
+          <pattern name="Personal" value="(Personal*|Nana|Otro)" />
+          <input = "* Personal">
             <sample>
               <item>Personal para apoyo en casa</item>
               <item>Nana</item>  
