@@ -23,9 +23,11 @@
               <item>Otro tipo de servicio</item> 
             </sample>          
         </context>
-        <input pattern = "Nana">
+        <context>
+          <input pattern = "Nana">
             <output value="De acuerdo, usted esta buscando * Text"/>
-        </input>
+          </input>
+        </context>  
   </input> 
    
 
