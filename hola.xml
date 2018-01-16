@@ -14,10 +14,9 @@
   </input>
   <input pattern="(pregunta|consulta |necesito|busco|buscando|informacion|información) *">
     
-        <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?">
-          <output value="Podemos ofrecerle Nanas, Nanas Lechuceras, Personal de apoyo en la casa"/>
-        </output>
+        <output value="¿Cómo podemos ayudarle?, ¿Qué tipo de personal busca?"/>
         <context>
+        <output value="Podemos ofrecerle Nanas, Nanas Lechuceras, Personal de apoyo en la casa"/>  
         <pattern name="personal" value="(nan*|personal* |otro* |empleada)"/>
         <input>
           <pattern value = "$personal"/>
